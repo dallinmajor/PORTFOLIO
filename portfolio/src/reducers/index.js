@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
 import ProjectsReducer from './projects';
-import ActiveProjets from './';
+import ActiveProjects from './';
+import ActivePage from './activePage';
 
 const rootReducer = combineReducers({
     projects: ProjectsReducer,
-    activeProjects: ActiveProjets
+    activeProjects: ActiveProjects,
+    page: ActivePage
 })
 
 export default rootReducer;

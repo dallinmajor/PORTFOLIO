@@ -7,10 +7,10 @@ export default class SideNav extends Component {
                 <h1>Dallin Major</h1>
                 <img className='profile-picture' src={window.location.origin + '/images/dallinProfile.jpeg'} alt='dallin and his wife'/>
                 <ul>
-                    <li className='nav-link active'>Home</li>
-                    <li className='nav-link '>About Me</li>
-                    <li className='nav-link '>Portfolio</li>
-                    <li className='nav-link '>Contact</li>
+                    <div>Home</div>
+                    <div>About Me</div>
+                    <div>Portfolio</div>
+                    <div>Contact</div>
                 </ul>
             </div>
         )

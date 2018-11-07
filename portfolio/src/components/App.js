@@ -1,6 +1,8 @@
 import React, { Component } from 'react'; 
 import SideNav from '../containers/side_nav';
 import DisplayPage from '../containers/page';
+import '../style/style.css';
+
 
 class App extends Component {
   render() {

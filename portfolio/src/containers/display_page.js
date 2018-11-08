@@ -8,17 +8,14 @@ class DisplayPage extends Component {
                 return (
                     <div>Home!</div>
                 );
-            break;
             case 'About':
                 return (
                     <div>About</div>
                 );
-            break;
             case 'Portfolio':
                 return (
                     <div>Portfolio</div>
                 )
-            break;
             case 'Contact':
                 return (
                     <div>Contact</div>

@@ -1,3 +1,7 @@
 .profile-picture {
     border-radius: 50%;
 }
+
+.fa-home, .fa-user, .fa-archive, .fa-envelope {
+    font-size: 50px;
+}

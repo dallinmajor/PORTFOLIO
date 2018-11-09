@@ -6,9 +6,29 @@
     height: 75%;
 }
 
+.p10 {
+    padding: 1rem;
+}
+
+.p20 {
+    padding: 2rem
+}
+
+.h70 {
+    height: 70%;
+}
+
+.h60 {
+    height: 60%;
+}
+
 .h50, .h5 {
     height: 50%;
     min-height: 200px;
+}
+
+.h40 {
+    height: 40%;
 }
 
 .h3 {
@@ -25,6 +45,38 @@
 
 .h2, .h20 {
     height: 20%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w60 {
+    width:60%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w25 {
+    width:25%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w10 {
+    width: 10%;
 }
 
 .center-box {

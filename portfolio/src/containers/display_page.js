@@ -12,9 +12,9 @@ class DisplayPage extends Component {
                 return (
                     <div>About</div>
                 );
-            case 'Portfolio':
+            case 'Projects':
                 return (
-                    <div>Portfolio</div>
+                    <div>Projects</div>
                 )
             case 'Contact':
                 return (

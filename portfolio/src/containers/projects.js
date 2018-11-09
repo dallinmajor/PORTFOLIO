@@ -2,10 +2,12 @@ import React, {Component}  from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {filterProjects} from '../../actions/filter_projects';
-class PortfolioPage extends Component {
+import {ToolIcons} from '../components/pages/projectsComponents/tool_icons'
+
+class Projects extends Component {
     render() {
         return (
-            <div></div>
+            <ToolIcons filterProjects={this.props.filterProjects}/>
         )
     }
 }
@@ -20,4 +22,4 @@ const mapDispatchToProps = (dispatch) => {
     return(bindActionCreators({filterProjects: filterProjects}, dispatch));
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(PortfolioPage);
+export default connect(mapStateToProps, mapDispatchToProps)(Projects);

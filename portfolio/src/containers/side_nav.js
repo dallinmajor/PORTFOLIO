@@ -22,7 +22,7 @@ class SideNav extends Component {
                                 <div className='col-md-10 h100'>
                                     <div className='h25 links' onClick={() => this.props.changePage('Home')}><i className="fa fa-home" style={{ 'font-size': '30px' }}> Home</i></div>
                                     <div className='h25 links' onClick={() => this.props.changePage('About')}><i className="fa fa-user-circle-o" style={{ 'font-size': '30px' }}> About Me</i></div>
-                                    <div className='h25 links' onClick={() => this.props.changePage('Portfolio')}><i className="fa fa-folder-open" style={{ 'font-size': '30px' }}> Portfolio</i></div>
+                                    <div className='h25 links' onClick={() => this.props.changePage('Projects')}><i className="fa fa-folder-open" style={{ 'font-size': '30px' }}> Projects</i></div>
                                     <div className='h25 links' onClick={() => this.props.changePage('Contact')}><i className="fa fa-envelope" style={{ 'font-size': '30px' }}> Contact</i></div>
                                 </div>
 

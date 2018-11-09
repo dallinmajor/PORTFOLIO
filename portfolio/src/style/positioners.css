@@ -1,0 +1,37 @@
+.h100 {
+    height: 100%;
+}
+
+.h75 {
+    height: 75%;
+}
+
+.h50, .h5 {
+    height: 50%;
+    min-height: 200px;
+}
+
+.h3 {
+    height: 33.33%;
+}
+
+.h30 {
+    height: 30%;
+}
+
+.h25 {
+    height: 25%;
+}
+
+.h2, .h20 {
+    height: 20%;
+}
+
+.center-box {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+

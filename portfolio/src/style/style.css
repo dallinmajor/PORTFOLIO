@@ -1,7 +1,34 @@
-.profile-picture {
-    border-radius: 50%;
+.html, body, #root {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
 }
 
-.fa-home, .fa-user, .fa-archive, .fa-envelope {
-    font-size: 50px;
+.name {
+    font-size: 70px;
+    text-align: center;
+}
+
+.side-nav {
+    
+    height: 100%;
+    border-right: 2px;
+    border-right-style: solid;
+    border-right-color: gray;
+    padding: 10px;
+}
+
+.gray {
+    background-color: #AAAAAA;
+}
+
+.silver {
+    background-color:#DDDDDD;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
 }

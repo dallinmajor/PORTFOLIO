@@ -20,10 +20,10 @@ class SideNav extends Component {
                             <div className='row h100'>
                                 <div className='col-md-1 h100'></div>
                                 <div className='col-md-10 h100'>
-                                    <div className='h25 links' onClick={() => this.props.changePage('Home')}><i className="fa fa-home" style={{ 'font-size': '30px' }}> Home</i></div>
-                                    <div className='h25 links' onClick={() => this.props.changePage('About')}><i className="fa fa-user-circle-o" style={{ 'font-size': '30px' }}> About Me</i></div>
-                                    <div className='h25 links' onClick={() => this.props.changePage('Projects')}><i className="fa fa-folder-open" style={{ 'font-size': '30px' }}> Projects</i></div>
-                                    <div className='h25 links' onClick={() => this.props.changePage('Contact')}><i className="fa fa-envelope" style={{ 'font-size': '30px' }}> Contact</i></div>
+                                    <div className='h25 links' onClick={() => this.props.changePage('Home')}><i className="fa fa-home" style={{ fontSize: '30px' }}> Home</i></div>
+                                    <div className='h25 links' onClick={() => this.props.changePage('About')}><i className="fa fa-user-circle-o" style={{ fontSize: '30px' }}> About Me</i></div>
+                                    <div className='h25 links' onClick={() => this.props.changePage('Projects')}><i className="fa fa-folder-open" style={{ fontSize: '30px' }}> Projects</i></div>
+                                    <div className='h25 links' onClick={() => this.props.changePage('Contact')}><i className="fa fa-envelope" style={{ fontSize: '30px' }}> Contact</i></div>
                                 </div>
 
                             </div>
@@ -31,10 +31,10 @@ class SideNav extends Component {
                         <div className='row'>
                             <div className='col-md-1 h100'></div>
                             <div className='w60 social-links'>
-                                <div className='row h100'>
-                                    <div className='col-md-4 links'><i className="fa fa-github" style={{ 'font-size': '25px' }}></i></div>
-                                    <div className='col-md-4 links'><i className="fa fa-linkedin-square" style={{ 'font-size': '25px' }}></i></div>
-                                    <div className='col-md-4 links'><i className="fa fa-facebook-official" style={{ 'font-size': '25px' }}></i></div>
+                                <div className='row h100'>                 
+                                    <div onClick={() => window.open('https://www.linkedin.com/in/dallin-major-39a0b9a2', "_blank")} className='col-md-4 links'><i className="fa fa-github" style={{ fontSize: '25px' }}></i></div>
+                                    <div onClick={() => window.open('https://www.facebook.com/dalmaj', "_blank")} className='col-md-4 links'><i className="fa fa-linkedin-square" style={{ fontSize:'25px' }}></i></div>
+                                    <div onClick={() => window.open('https://github.com/dallinmajor', "_blank")} className='col-md-4 links'><i className="fa fa-facebook-official" style={{ fontSize: '25px' }}></i></div>
                                 </div>
                             </div>
                         </div>

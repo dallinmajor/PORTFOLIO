@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Projects from '../containers/projects';
 import { connect } from 'react-redux';
 
 class DisplayPage extends Component {
@@ -14,7 +15,7 @@ class DisplayPage extends Component {
                 );
             case 'Projects':
                 return (
-                    <div>Projects</div>
+                    <Projects/>
                 )
             case 'Contact':
                 return (

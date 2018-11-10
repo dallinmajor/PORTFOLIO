@@ -1,6 +1,8 @@
+
+
 export default () => {
     return [{
-        project: '',
+        project: 'WWII Trivia',
         toolsUsed: [''],
         description: '',
         createdAt: '',

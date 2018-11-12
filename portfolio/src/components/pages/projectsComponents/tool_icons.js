@@ -24,7 +24,6 @@ const ToolIcons = (filterProjects) => {
             </div>
         </div>
     )
-
 }
 
 export default ToolIcons;

@@ -6,6 +6,20 @@
     color: #AAAAAA;
 }
 
+.iconRow {
+    justify-content: center;
+    text-align: center;
+}
+
+i {
+    margin: .5rem
+}
+
+.devIcons {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
 .image-box {
     text-align: center;
 }
@@ -19,7 +33,7 @@
     font-size: 1.1rem;
 }
 
-.links:hover {
+i:hover {
     color: #7FDBFF;
 }
 

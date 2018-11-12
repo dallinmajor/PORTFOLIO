@@ -6,7 +6,7 @@ import { pageNav } from '../actions/navigate_pages';
 class SideNav extends Component {
     render() {
         return (
-            <div className='h100 col-md-3'>
+            <div className='h100'>
                 <div className='side-nav'>
                     <div className='image-box h30 p20'>
                         <img className='profile-picture' src={window.location.origin + '/images/dallinProfile.jpeg'} alt='dallin and his wife' />

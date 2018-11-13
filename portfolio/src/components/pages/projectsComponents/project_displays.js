@@ -10,18 +10,18 @@ const ProjectThumbNail = (props) => {
                 </div>
                 <div class="post-hover text-center">
                     <div class="inside">
-                        <h6><a href="https://github.com/Plantsy-Dream-Team/Plantsy_App">GitHub</a></h6>
-                        <h4><a href="#">Plantsy App</a></h4>
+                        <h4 className='center-text'><a href="#">Plantsy App</a></h4>
                         <p>This is a social media app that will connect a community of gardeners. Hobbyist
                             can comment on eachothers plants and provide helpful tips and tricks for
                             gardening. They can update the state of their plants and ask for help or
                             inform others in theirretty proud given my experience. We hope to have
                                         it's firt stages ready by October 10th</p>
+                        <i className="center-text fa fa-github" style={{ fontSize: '25px' }}></i>
+                    </div>
                     </div>
                 </div>
             </div>
-        </div>
-    )
-};
-
+            )
+        };
+        
 export default ProjectThumbNail;

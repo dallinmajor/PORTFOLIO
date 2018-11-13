@@ -9,13 +9,12 @@ class App extends Component {
   render() {
     return (
       <div className='row h100'>
-        <div className='col-md-3 col-sm-12'>
+        <div className='h100 col-md-3 col-sm-12'>
           <SideNav />
         </div>
-        <div className='col-md-7 col-sm-12'>
+        <div className='col-md-8 col-sm-12'>
           <DisplayPage />
         </div>
-
       </div>
 
     );

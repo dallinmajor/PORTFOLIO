@@ -15,7 +15,8 @@ const ProjectThumbNail = (props) => {
                             can comment on eachothers plants and provide helpful tips and tricks for
                             gardening. They can update the state of their plants and ask for help or
                             inform others in theirretty proud given my experience. We hope to have
-                                        it's firt stages ready by October 10th</p>
+                                        it's firt stages ready by October 10th
+                                        </p>
                         <i className="center-text fa fa-github" style={{ fontSize: '25px' }}></i>
                     </div>
                     </div>

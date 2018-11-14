@@ -10,7 +10,7 @@ class Projects extends Component {
         return (
             <div className='overflow'>
                 <ToolIcons filterProjects={this.props.filterProjects} />
-                <div className='p30'>
+                <div className='p50 topP20'>
                 <div className='row'>
                     <ProjectThumbNail />
                     <ProjectThumbNail/>

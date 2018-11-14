@@ -12,9 +12,9 @@ const ToolIcons = (filterProjects) => {
                 <i className="devicon-git-plain"></i>
                 <i className="devicon-html5-plain"></i>
                 <i className="devicon-heroku-original"></i>
-                <i className="devicon-javascript-plain"></i>
             </div>
             <div className='iconRow w100'>
+                <i className="devicon-javascript-plain"></i>
                 <i className="devicon-jquery-plain"></i>
                 <i className="devicon-mongodb-plain"></i>
                 <i className="devicon-mysql-plain"></i>

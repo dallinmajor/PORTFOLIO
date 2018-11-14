@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Projects from '../containers/projects';
+import AboutMePage from '../components/pages/about';
 import { connect } from 'react-redux';
 
 class DisplayPage extends Component {
@@ -11,7 +12,7 @@ class DisplayPage extends Component {
                 );
             case 'About':
                 return (
-                    <div>About</div>
+                    <AboutMePage/>
                 );
             case 'Projects':
                 return (

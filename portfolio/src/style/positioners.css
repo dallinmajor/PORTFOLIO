@@ -22,6 +22,14 @@
     padding: 4rem;
 }
 
+.p50 {
+    padding: 5rem;
+}
+
+.topP20 {
+    padding-top: 2rem;
+}
+
 .h70 {
     height: 70%;
 }

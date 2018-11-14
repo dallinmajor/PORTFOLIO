@@ -42,9 +42,10 @@ i:hover {
     position: fixed;
     height: 100%;
     width: 25%;
-    /* border-right: 2px;
+    border-right: 2px;
     border-right-style: solid;
-    border-right-color: gray; */
+    border-right-color: gray;
+    background-color: rgb(222, 245, 253);
 }
 
 .social-links {

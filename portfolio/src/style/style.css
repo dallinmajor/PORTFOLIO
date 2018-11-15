@@ -4,8 +4,8 @@
     height: 100%;
     overflow: scroll;
     color: #4c5c68;
-    color: #f3e9d2;
-    background-color: #1a936f;
+    color: #114b5f;
+    background-color: #c6dabf;
 }
 
 .iconRow {
@@ -19,8 +19,9 @@ i {
 
 .devIcons {
     font-size: 2.5rem;
-    margin-top: 3rem;
-    margin-bottom:3rem;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    color: #114d5f;
 }
 
 .image-box {
@@ -36,12 +37,14 @@ i {
     text-align: center;
     color: #1985a1;
     color: #f3e9d2;
+    color: #88d498;
 }
 .profession {
     text-align: center;
     font-size: 1.1rem;
     color: #46494c;
     color: #c6dabf;
+    color: #88d498;
 }
 
 i:hover {
@@ -58,8 +61,10 @@ i:hover {
     border-right-color: rgba(0, 0, 0, 0.349);
     background-color: #c5c3c6;
     background-color: #dcdcdd;
-    background-color: #114c5f93;
+    background-color: #114c5f;
     color: #88d498;
+    color: #f3e9d2;
+    color: #c6dabf;
 }
 
 .social-links {
@@ -102,7 +107,7 @@ i:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,0.9);
+    background-color:#114b5f;
     padding: 15px 20px;
 }
 
@@ -112,7 +117,7 @@ i:hover {
 }
 
 .post-masonry .post-thumb .title-over a {
-    color: #fff;
+    color: #f3e9d2;
 }
 
 .post-masonry .post-thumb .post-hover {

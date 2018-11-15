@@ -9,8 +9,11 @@ class SideNav extends Component {
             <div className='h100'>
                 <div className='side-nav'>
                     <div className='image-box h3 p20'>
-                        <img className='profile-picture' src={window.location.origin + '/images/dallinProfile.jpeg'} alt='dallin and his wife' />
+                        <div className='white-border'>
+                            <img className='profile-picture' src={window.location.origin + '/images/dallinProfile.jpeg'} alt='dallin and his wife' />
+                        </div>
                     </div>
+
                     <div className='name-box text-center'>
                         <div className='name'>Dallin Major</div>
                         <div className='profession'>full-stack web developer</div>

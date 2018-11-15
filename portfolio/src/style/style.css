@@ -44,7 +44,7 @@ i {
     font-size: 1.1rem;
     color: #46494c;
     color: #c6dabf;
-    color: #88d498;
+    
 }
 
 i:hover {
@@ -56,9 +56,9 @@ i:hover {
     height: 100%;
     z-index: 99;
     width: 25%;
-    border-right: .2rem;
+    border-right: .1rem;
     border-right-style: solid;
-    border-right-color: rgba(0, 0, 0, 0.349);
+    border-right-color: white;
     background-color: #c5c3c6;
     background-color: #dcdcdd;
     background-color: #114c5f;
@@ -80,11 +80,24 @@ i:hover {
     background-color:#DDDDDD;
 }
 
+
 .profile-picture {
     border-radius: 50%;
     display: inline-block;
     margin: auto;
-    height: 90%;
+    height: 100%;
+    border: .2rem;
+    border-style: solid;
+    border-color: #114c5f;    
+}
+
+.white-border {
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+    border: .1rem;
+    border-style: solid;
+    border-color: white;  
 }
 
 .post-masonry {
@@ -117,7 +130,7 @@ i:hover {
 }
 
 .post-masonry .post-thumb .title-over a {
-    color: #f3e9d2;
+    color: #88d498;
 }
 
 .post-masonry .post-thumb .post-hover {

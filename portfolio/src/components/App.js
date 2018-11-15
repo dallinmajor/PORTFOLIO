@@ -12,7 +12,7 @@ class App extends Component {
         <div className='h100 col-md-3 col-sm-12'>
           <SideNav />
         </div>
-        <div className='col-md-9 col-sm-12'>
+        <div className='col-md-9 col-sm-12 h100'>
           <DisplayPage />
         </div>
       </div>

@@ -3,7 +3,9 @@
     width: 100%;
     height: 100%;
     overflow: scroll;
-    color: #AAAAAA;
+    color: #4c5c68;
+    color: #f3e9d2;
+    background-color: #1a936f;
 }
 
 .iconRow {
@@ -25,27 +27,39 @@ i {
     text-align: center;
 }
 
+.name-box {
+    padding-bottom: 2rem;
+}
+
 .name {
     font-size:2.8rem;
     text-align: center;
+    color: #1985a1;
+    color: #f3e9d2;
 }
 .profession {
     text-align: center;
     font-size: 1.1rem;
+    color: #46494c;
+    color: #c6dabf;
 }
 
 i:hover {
-    color: #7FDBFF;
+    color: #1985a1;
 }
 
 .side-nav {
     position: fixed;
     height: 100%;
+    z-index: 99;
     width: 25%;
-    border-right: 2px;
+    border-right: .2rem;
     border-right-style: solid;
-    border-right-color: gray;
-    background-color: rgb(222, 245, 253);
+    border-right-color: rgba(0, 0, 0, 0.349);
+    background-color: #c5c3c6;
+    background-color: #dcdcdd;
+    background-color: #114c5f93;
+    color: #88d498;
 }
 
 .social-links {
@@ -61,10 +75,6 @@ i:hover {
     background-color:#DDDDDD;
 }
 
-.overflow {
-    overflow: scroll;
-}
-
 .profile-picture {
     border-radius: 50%;
     display: inline-block;
@@ -73,7 +83,7 @@ i:hover {
 }
 
 .post-masonry {
-    margin-bottom: 30px;
+    padding: .5rem;
 }
 
 .post-masonry .post-thumb {

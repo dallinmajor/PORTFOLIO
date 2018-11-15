@@ -8,14 +8,14 @@ class SideNav extends Component {
         return (
             <div className='h100'>
                 <div className='side-nav'>
-                    <div className='image-box h30 p20'>
+                    <div className='image-box h3 p20'>
                         <img className='profile-picture' src={window.location.origin + '/images/dallinProfile.jpeg'} alt='dallin and his wife' />
                     </div>
                     <div className='name-box text-center'>
                         <div className='name'>Dallin Major</div>
                         <div className='profession'>full-stack web developer</div>
                     </div>
-                    <div className='h50'>
+                    <div className='h40'>
                         <div className='h75 p20'>
                             <div className='row h100'>
                                 <div className='col-md-1 h100'></div>
@@ -28,13 +28,15 @@ class SideNav extends Component {
 
                             </div>
                         </div>
+                    </div>
+                    <div className='h10'>
                         <div className='row'>
                             <div className='col-md-1 h100'></div>
-                            <div className='w60 social-links'>
-                                <div className='row h100'>                 
-                                    <div onClick={() => window.open('https://www.linkedin.com/in/dallin-major-39a0b9a2', "_blank")} className='col-md-4 links'><i className="fa fa-github" style={{ fontSize: '25px' }}></i></div>
-                                    <div onClick={() => window.open('https://www.facebook.com/dalmaj', "_blank")} className='col-md-4 links'><i className="fa fa-linkedin-square" style={{ fontSize:'25px' }}></i></div>
-                                    <div onClick={() => window.open('https://github.com/dallinmajor', "_blank")} className='col-md-4 links'><i className="fa fa-facebook-official" style={{ fontSize: '25px' }}></i></div>
+                            <div className='w50 social-links'>
+                                <div className='row h100'>
+                                    <div onClick={() => window.open('https://github.com/dallinmajor', "_blank")} className='col-md-4 links'><i className="fa fa-github" style={{ fontSize: '25px' }}></i></div>
+                                    <div onClick={() => window.open('https://www.linkedin.com/in/dallin-major-39a0b9a2', "_blank")} className='col-md-4 links'><i className="fa fa-linkedin-square" style={{ fontSize: '25px' }}></i></div>
+                                    <div onClick={() => window.open('https://www.facebook.com/dalmaj', "_blank")} className='col-md-4 links'><i className="fa fa-facebook-official" style={{ fontSize: '25px' }}></i></div>
                                 </div>
                             </div>
                         </div>

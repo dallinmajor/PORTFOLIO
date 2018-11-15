@@ -8,20 +8,20 @@ import ProjectThumbNail from '../components/pages/projectsComponents/project_dis
 class Projects extends Component {
     render() {
         return (
-            <div className='overflow'>
+            <div className='p20'>
                 <ToolIcons filterProjects={this.props.filterProjects} />
-                <div className='p50 topP20'>
-                <div className='row'>
-                    <ProjectThumbNail />
-                    <ProjectThumbNail/>
-                    <ProjectThumbNail/>
-                    <ProjectThumbNail />
-                    <ProjectThumbNail/>
-                    <ProjectThumbNail/>
-                    <ProjectThumbNail />
-                    <ProjectThumbNail/>
-                    <ProjectThumbNail/>
-                </div>
+                <div className='p40 topP20'>
+                    <div className='row'>
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                        <ProjectThumbNail />
+                    </div>
                 </div>
             </div>
         )

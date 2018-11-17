@@ -13,7 +13,8 @@ const Tools = {
     Redux: 'Redux',
     Git: 'Git',
     Express: 'Express',
-    Cheerio: 'Cheerio'
+    Cheerio: 'Cheerio',
+    JQuery: 'JQuery'
 };
 
 export default Tools;

@@ -29,5 +29,12 @@ export default () => {
         createdAt: '5/30/2018',
         gitHubLink: 'https://github.com/dallinmajor/Giphy-Assignment/',
         projectLink: 'https://dallinmajor.github.io/Giphy-Assignment/'
+    },{
+        project: 'Cartoon Gify',
+        toolsUsed: [Tools.Javascript, Tools.Bootstrap, Tools.HTML, Tools.Git, Tools.Cheerio, Tools.Node, Tools.Express, Tools.Mongodb],
+        description: '',
+        createdAt: '5/30/2018',
+        gitHubLink: 'https://github.com/dallinmajor/Giphy-Assignment/',
+        projectLink: 'https://dallinmajor.github.io/Giphy-Assignment/'
     }]
 }
